@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,10 +13,51 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Symbol UFABC" translatesAutoresizingMaskIntoConstraints="NO" id="c1D-EH-9uH">
+                                <rect key="frame" x="32" y="248" width="350" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="Qai-LA-8b6"/>
+                                    <constraint firstAttribute="width" constant="350" id="uhx-LK-Zy7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFORMA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXL-5x-8z6">
+                                <rect key="frame" x="72" y="236" width="271" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="Hqi-we-lAw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
+                                <color key="textColor" name="ufabc"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UFABC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34h-ig-nBb">
+                                <rect key="frame" x="109" y="576" width="197" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="bOx-GP-jBh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
+                                <color key="textColor" name="ufabc"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="34h-ig-nBb" secondAttribute="trailing" constant="108" id="2hY-JP-05o"/>
+                            <constraint firstItem="oXL-5x-8z6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="3Yh-0H-gBx"/>
+                            <constraint firstItem="34h-ig-nBb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="109" id="8n2-cq-Uiv"/>
+                            <constraint firstItem="c1D-EH-9uH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="99A-95-TAh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oXL-5x-8z6" secondAttribute="trailing" constant="71" id="G8N-EM-vZu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="c1D-EH-9uH" secondAttribute="bottom" constant="214" id="H19-O6-IQ4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c1D-EH-9uH" secondAttribute="trailing" constant="32" id="N9D-jr-WVM"/>
+                            <constraint firstItem="c1D-EH-9uH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="QoS-sM-LEE"/>
+                            <constraint firstItem="c1D-EH-9uH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="204" id="YPH-fe-18l"/>
+                            <constraint firstItem="oXL-5x-8z6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="192" id="hI0-1K-cb9"/>
+                            <constraint firstItem="c1D-EH-9uH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="te9-6O-Jj7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="34h-ig-nBb" secondAttribute="bottom" constant="214" id="zT0-rt-Dq3"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -22,4 +65,10 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Symbol UFABC" width="1024" height="1024"/>
+        <namedColor name="ufabc">
+            <color red="0.0" green="0.39599999785423279" blue="0.19599999487400055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>
