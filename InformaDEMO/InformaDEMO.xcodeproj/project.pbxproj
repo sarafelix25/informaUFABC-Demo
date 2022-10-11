@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		9BC7838528F4FBD900CEEA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7838428F4FBD900CEEA6D /* AppDelegate.swift */; };
 		9BC7838728F4FBD900CEEA6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7838628F4FBD900CEEA6D /* SceneDelegate.swift */; };
-		9BC7838928F4FBD900CEEA6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7838828F4FBD900CEEA6D /* ViewController.swift */; };
+		9BC7838928F4FBD900CEEA6D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7838828F4FBD900CEEA6D /* HomeViewController.swift */; };
 		9BC7838C28F4FBD900CEEA6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC7838A28F4FBD900CEEA6D /* Main.storyboard */; };
 		9BC7838E28F4FBDB00CEEA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC7838D28F4FBDB00CEEA6D /* Assets.xcassets */; };
 		9BC7839128F4FBDB00CEEA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC7838F28F4FBDB00CEEA6D /* LaunchScreen.storyboard */; };
+		9BF37BAC28F50CBC008FE691 /* RestauranteUniversitarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF37BAB28F50CBC008FE691 /* RestauranteUniversitarioViewController.swift */; };
+		9BF37BAE28F50E76008FE691 /* FretadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF37BAD28F50E76008FE691 /* FretadoViewController.swift */; };
+		9BF37BB028F50E87008FE691 /* AgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF37BAF28F50E87008FE691 /* AgendaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BC7838128F4FBD900CEEA6D /* InformaDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InformaDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC7838428F4FBD900CEEA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BC7838628F4FBD900CEEA6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9BC7838828F4FBD900CEEA6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BC7838828F4FBD900CEEA6D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9BC7838B28F4FBD900CEEA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BC7838D28F4FBDB00CEEA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BC7839028F4FBDB00CEEA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BC7839228F4FBDB00CEEA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF37BAB28F50CBC008FE691 /* RestauranteUniversitarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestauranteUniversitarioViewController.swift; sourceTree = "<group>"; };
+		9BF37BAD28F50E76008FE691 /* FretadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretadoViewController.swift; sourceTree = "<group>"; };
+		9BF37BAF28F50E87008FE691 /* AgendaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		9BC7838328F4FBD900CEEA6D /* InformaDEMO */ = {
 			isa = PBXGroup;
 			children = (
-				9BC7838428F4FBD900CEEA6D /* AppDelegate.swift */,
-				9BC7838628F4FBD900CEEA6D /* SceneDelegate.swift */,
-				9BC7838828F4FBD900CEEA6D /* ViewController.swift */,
-				9BC7838A28F4FBD900CEEA6D /* Main.storyboard */,
-				9BC7838D28F4FBDB00CEEA6D /* Assets.xcassets */,
-				9BC7838F28F4FBDB00CEEA6D /* LaunchScreen.storyboard */,
+				9BF37BB428F50EF8008FE691 /* Resources */,
+				9BF37BB328F50E99008FE691 /* ViewModel */,
+				9BF37BB228F50E93008FE691 /* View */,
+				9BF37BB128F50E8D008FE691 /* Model */,
 				9BC7839228F4FBDB00CEEA6D /* Info.plist */,
 			);
 			path = InformaDEMO;
+			sourceTree = "<group>";
+		};
+		9BF37BB128F50E8D008FE691 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BF37BB228F50E93008FE691 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7838A28F4FBD900CEEA6D /* Main.storyboard */,
+				9BC7838F28F4FBDB00CEEA6D /* LaunchScreen.storyboard */,
+				9BC7838828F4FBD900CEEA6D /* HomeViewController.swift */,
+				9BF37BAB28F50CBC008FE691 /* RestauranteUniversitarioViewController.swift */,
+				9BF37BAD28F50E76008FE691 /* FretadoViewController.swift */,
+				9BF37BAF28F50E87008FE691 /* AgendaViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BF37BB328F50E99008FE691 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9BF37BB428F50EF8008FE691 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7838D28F4FBDB00CEEA6D /* Assets.xcassets */,
+				9BC7838628F4FBD900CEEA6D /* SceneDelegate.swift */,
+				9BC7838428F4FBD900CEEA6D /* AppDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC7838928F4FBD900CEEA6D /* ViewController.swift in Sources */,
+				9BF37BAC28F50CBC008FE691 /* RestauranteUniversitarioViewController.swift in Sources */,
+				9BC7838928F4FBD900CEEA6D /* HomeViewController.swift in Sources */,
+				9BF37BB028F50E87008FE691 /* AgendaViewController.swift in Sources */,
 				9BC7838528F4FBD900CEEA6D /* AppDelegate.swift in Sources */,
 				9BC7838728F4FBD900CEEA6D /* SceneDelegate.swift in Sources */,
+				9BF37BAE28F50E76008FE691 /* FretadoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

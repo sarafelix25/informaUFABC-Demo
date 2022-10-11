@@ -13,9 +13,10 @@
         <scene sceneID="0bP-db-e3b">
             <objects>
                 <navigationController id="Hm4-fv-CXr" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" largeTitles="YES" id="vB6-A7-8Wk">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vB6-A7-8Wk">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="ufabc"/>
                         <color key="barTintColor" name="ufabc"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.22779163720000001" green="0.52816373110000003" blue="0.3929925561" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -32,16 +33,16 @@
             </objects>
             <point key="canvasLocation" x="-1312" y="-52"/>
         </scene>
-        <!--Informa UFABC-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="InformaDEMO" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="InformaDEMO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nwj-Nc-CNP">
-                                <rect key="frame" x="157" y="256" width="100" height="100"/>
+                                <rect key="frame" x="157" y="196" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Ki1-EJ-d4S"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Mq7-PJ-ePj"/>
@@ -53,9 +54,12 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="flO-IV-jWO" kind="push" id="OQa-pb-yhR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzO-N5-Stf">
-                                <rect key="frame" x="157" y="445" width="100" height="100"/>
+                                <rect key="frame" x="157" y="385" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="b6c-rZ-YlK"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="s2O-75-ntp"/>
@@ -69,7 +73,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NE2-w1-qRt">
-                                <rect key="frame" x="157" y="634" width="100" height="100"/>
+                                <rect key="frame" x="157" y="574" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Bhj-S2-mUX"/>
                                     <constraint firstAttribute="height" constant="100" id="ynp-p2-JLi"/>
@@ -83,7 +87,7 @@
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informa UFABC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8k-xB-xeb">
-                                <rect key="frame" x="22" y="148" width="276" height="48"/>
+                                <rect key="frame" x="22" y="88" width="284" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="KrT-rl-IXd"/>
                                 </constraints>
@@ -92,7 +96,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurante Universitário" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7G-jx-k8A">
-                                <rect key="frame" x="113" y="364" width="192" height="21"/>
+                                <rect key="frame" x="113" y="304" width="192" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="192" id="HKY-f6-JWK"/>
                                     <constraint firstAttribute="height" constant="21" id="rid-XX-IsM"/>
@@ -102,7 +106,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fretado" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3C-YO-wCh">
-                                <rect key="frame" x="178" y="553" width="59" height="21"/>
+                                <rect key="frame" x="178" y="493" width="59" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Q4y-5j-Dfd"/>
                                 </constraints>
@@ -110,15 +114,8 @@
                                 <color key="textColor" name="ufabc"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Symbol UFABC" translatesAutoresizingMaskIntoConstraints="NO" id="ULB-7z-c1r">
-                                <rect key="frame" x="314" y="141" width="73" height="63"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="sAX-1x-I7b"/>
-                                    <constraint firstAttribute="height" constant="63" id="wNL-45-Qnx"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agenda" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uhx-1B-d5u">
-                                <rect key="frame" x="174" y="742" width="63" height="21"/>
+                                <rect key="frame" x="174" y="682" width="63" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="kix-Xg-D5k"/>
                                 </constraints>
@@ -126,6 +123,13 @@
                                 <color key="textColor" name="ufabc"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Symbol UFABC" translatesAutoresizingMaskIntoConstraints="NO" id="ULB-7z-c1r">
+                                <rect key="frame" x="314" y="81" width="73" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="sAX-1x-I7b"/>
+                                    <constraint firstAttribute="height" constant="63" id="wNL-45-Qnx"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -136,7 +140,7 @@
                             <constraint firstItem="Uhx-1B-d5u" firstAttribute="top" secondItem="NE2-w1-qRt" secondAttribute="bottom" constant="8" symbolic="YES" id="3lj-nk-ump"/>
                             <constraint firstItem="Nwj-Nc-CNP" firstAttribute="top" secondItem="R8k-xB-xeb" secondAttribute="bottom" constant="60" id="APt-5Q-uMv"/>
                             <constraint firstItem="Uhx-1B-d5u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="174" id="Hb5-tj-PVd"/>
-                            <constraint firstItem="ULB-7z-c1r" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="Nti-86-X5m"/>
+                            <constraint firstItem="ULB-7z-c1r" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-7" id="Nti-86-X5m"/>
                             <constraint firstItem="j3C-YO-wCh" firstAttribute="top" secondItem="kzO-N5-Stf" secondAttribute="bottom" constant="8" symbolic="YES" id="StH-t8-fyE"/>
                             <constraint firstItem="Nwj-Nc-CNP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="V66-Da-cEV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nwj-Nc-CNP" secondAttribute="trailing" constant="157" id="V7X-LW-MPL"/>
@@ -150,12 +154,14 @@
                             <constraint firstItem="NE2-w1-qRt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="q2v-fe-Dye"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j3C-YO-wCh" secondAttribute="trailing" constant="177" id="qgo-2V-AiI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NE2-w1-qRt" secondAttribute="trailing" constant="157" id="ryS-h9-k9B"/>
-                            <constraint firstItem="R8k-xB-xeb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="vL8-mq-rY2"/>
+                            <constraint firstItem="R8k-xB-xeb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vL8-mq-rY2"/>
                             <constraint firstItem="R8k-xB-xeb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22" id="vN1-fa-1Gn"/>
-                            <constraint firstItem="ULB-7z-c1r" firstAttribute="leading" secondItem="R8k-xB-xeb" secondAttribute="trailing" constant="16" id="xTf-Z9-HrH"/>
+                            <constraint firstItem="ULB-7z-c1r" firstAttribute="leading" secondItem="R8k-xB-xeb" secondAttribute="trailing" constant="8" id="xTf-Z9-HrH"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Informa UFABC" leftItemsSupplementBackButton="YES" largeTitleDisplayMode="never" id="eD5-Hc-9br"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="eD5-Hc-9br">
+                        <barButtonItem key="backBarButtonItem" title="Informa UFABC" id="UR8-Ui-SkK"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="btnAgenda" destination="NE2-w1-qRt" id="dot-iJ-vid"/>
                         <outlet property="btnFretado" destination="kzO-N5-Stf" id="7VK-fa-umB"/>
@@ -171,16 +177,19 @@
             </objects>
             <point key="canvasLocation" x="-407.24637681159425" y="-52.232142857142854"/>
         </scene>
-        <!--View Controller-->
+        <!--Restaurante Universitario View Controller-->
         <scene sceneID="zhB-D8-bg9">
             <objects>
-                <viewController id="flO-IV-jWO" sceneMemberID="viewController">
+                <viewController id="flO-IV-jWO" customClass="RestauranteUniversitarioViewController" customModule="InformaDEMO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M1w-hW-8vZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="UAY-7F-9r4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="bs5-6i-qHx">
+                        <barButtonItem key="backBarButtonItem" title="Informa UFABC" id="Nqd-Pf-pcc"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E6x-np-i74" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
