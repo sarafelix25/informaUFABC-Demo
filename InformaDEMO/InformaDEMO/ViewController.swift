@@ -9,6 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labelTitle: UILabel!
+    @IBOutlet weak var imageSymbol: UIImageView!
+
+    @IBOutlet weak var btnRU: UIButton!
+    @IBOutlet weak var labelRU: UILabel!
+    @IBOutlet weak var btnFretado: UIButton!
+    @IBOutlet weak var labelFretado: UILabel!
+    @IBOutlet weak var btnAgenda: UIButton!
+    @IBOutlet weak var labelAgenda: UILabel!
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
