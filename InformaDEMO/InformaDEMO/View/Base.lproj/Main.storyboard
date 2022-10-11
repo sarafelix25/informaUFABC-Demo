@@ -71,6 +71,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="c4l-gU-R0D" kind="push" id="R9i-hd-San"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NE2-w1-qRt">
                                 <rect key="frame" x="157" y="574" width="100" height="100"/>
@@ -85,6 +88,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="gZv-9b-Qmr" kind="push" id="J6E-gc-x8S"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informa UFABC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8k-xB-xeb">
                                 <rect key="frame" x="22" y="88" width="284" height="48"/>
@@ -177,7 +183,39 @@
             </objects>
             <point key="canvasLocation" x="-407.24637681159425" y="-52.232142857142854"/>
         </scene>
-        <!--Restaurante Universitario View Controller-->
+        <!--Agenda-->
+        <scene sceneID="SBi-MA-NEv">
+            <objects>
+                <viewController id="gZv-9b-Qmr" customClass="AgendaViewController" customModule="InformaDEMO" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kae-sR-UK4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lJy-0O-Yhb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Agenda" id="ows-rP-dHU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SHg-xm-Zjr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="1355"/>
+        </scene>
+        <!--Fretado-->
+        <scene sceneID="vkD-7D-xTf">
+            <objects>
+                <viewController id="c4l-gU-R0D" customClass="FretadoViewController" customModule="InformaDEMO" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4I2-fJ-HZV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="SIJ-1d-h3n"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Fretado" id="nw9-ze-ZKo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BiH-CQ-f1I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="642"/>
+        </scene>
+        <!--Restaurante-->
         <scene sceneID="zhB-D8-bg9">
             <objects>
                 <viewController id="flO-IV-jWO" customClass="RestauranteUniversitarioViewController" customModule="InformaDEMO" customModuleProvider="target" sceneMemberID="viewController">
@@ -187,7 +225,7 @@
                         <viewLayoutGuide key="safeArea" id="UAY-7F-9r4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="bs5-6i-qHx">
+                    <navigationItem key="navigationItem" title="Restaurante" id="bs5-6i-qHx">
                         <barButtonItem key="backBarButtonItem" title="Informa UFABC" id="Nqd-Pf-pcc"/>
                     </navigationItem>
                 </viewController>
