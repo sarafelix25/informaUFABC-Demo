@@ -102,7 +102,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurante Universitário" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7G-jx-k8A">
-                                <rect key="frame" x="113" y="304" width="192" height="21"/>
+                                <rect key="frame" x="105" y="304" width="205" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="192" id="HKY-f6-JWK"/>
                                     <constraint firstAttribute="height" constant="21" id="rid-XX-IsM"/>
@@ -112,7 +112,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fretado" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3C-YO-wCh">
-                                <rect key="frame" x="178" y="493" width="59" height="21"/>
+                                <rect key="frame" x="168" y="493" width="79" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Q4y-5j-Dfd"/>
                                 </constraints>
@@ -140,8 +140,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="s7G-jx-k8A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="1NM-T0-bug"/>
-                            <constraint firstItem="j3C-YO-wCh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="178" id="2aK-Td-lhd"/>
+                            <constraint firstItem="s7G-jx-k8A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="1NM-T0-bug"/>
+                            <constraint firstItem="j3C-YO-wCh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="168" id="2aK-Td-lhd"/>
                             <constraint firstItem="kzO-N5-Stf" firstAttribute="top" secondItem="s7G-jx-k8A" secondAttribute="bottom" constant="60" id="3CU-d6-IAc"/>
                             <constraint firstItem="Uhx-1B-d5u" firstAttribute="top" secondItem="NE2-w1-qRt" secondAttribute="bottom" constant="8" symbolic="YES" id="3lj-nk-ump"/>
                             <constraint firstItem="Nwj-Nc-CNP" firstAttribute="top" secondItem="R8k-xB-xeb" secondAttribute="bottom" constant="60" id="APt-5Q-uMv"/>
@@ -151,14 +151,14 @@
                             <constraint firstItem="Nwj-Nc-CNP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="V66-Da-cEV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nwj-Nc-CNP" secondAttribute="trailing" constant="157" id="V7X-LW-MPL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ULB-7z-c1r" secondAttribute="trailing" constant="27" id="XhQ-yd-B1C"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s7G-jx-k8A" secondAttribute="trailing" constant="109" id="gz5-aI-xpD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s7G-jx-k8A" secondAttribute="trailing" constant="104" id="gz5-aI-xpD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kzO-N5-Stf" secondAttribute="trailing" constant="157" id="k59-XW-s45"/>
                             <constraint firstItem="NE2-w1-qRt" firstAttribute="top" secondItem="j3C-YO-wCh" secondAttribute="bottom" constant="60" id="m2l-CJ-UTp"/>
                             <constraint firstItem="kzO-N5-Stf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="m7Y-jC-Ox7"/>
                             <constraint firstItem="s7G-jx-k8A" firstAttribute="top" secondItem="Nwj-Nc-CNP" secondAttribute="bottom" constant="8" symbolic="YES" id="oa1-XK-HcW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Uhx-1B-d5u" secondAttribute="trailing" constant="177" id="pWL-4s-XqV"/>
                             <constraint firstItem="NE2-w1-qRt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="q2v-fe-Dye"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j3C-YO-wCh" secondAttribute="trailing" constant="177" id="qgo-2V-AiI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j3C-YO-wCh" secondAttribute="trailing" constant="167" id="qgo-2V-AiI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NE2-w1-qRt" secondAttribute="trailing" constant="157" id="ryS-h9-k9B"/>
                             <constraint firstItem="R8k-xB-xeb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vL8-mq-rY2"/>
                             <constraint firstItem="R8k-xB-xeb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22" id="vN1-fa-1Gn"/>
@@ -240,7 +240,7 @@
         <image name="calendar" catalog="system" width="128" height="106"/>
         <image name="fork.knife" catalog="system" width="92" height="128"/>
         <namedColor name="ufabc">
-            <color red="0.0" green="0.39599999785423279" blue="0.19599999487400055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.396078431372549" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
